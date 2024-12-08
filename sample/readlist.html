@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *{
+      margin:0; padding : 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-gray-200">
+    <div class="w-full max-w-lg mx-auto p-3">
+      <img src="https://lh3.googleusercontent.com/ULS6oXQACAmyZHpXsdF_3N7dXyya8KlzQYljST2ulK_44Qxx8crUMkwbL970xUovyNlyvRFpSOss8W4eLXxY7b-uS0v-OPkUfourc2cVpNwuvuxJJZ-lsTE2WThl7V6pCg=w1280">
+      <div role="alert" class="alert bg-blue-300 flex mt-3 flex-col gap-2 items-start">
+        <div class="flex w-full bg-white p-3 border rounded-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            class="h-6 w-6 shrink-0 stroke-current">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          <span class="ml-1 text-lg">리드리스트 | <b>READLIST</b></span>
+        </div>
+        <p style="text-align: start;" class="bg-white w-full p-3 border rounded-lg">본 설문조사는 청년들이 선호하는 책을 파악하여<br>
+          유익한 독서리스트를 만드는 데 도움을 주기 위한 것입니다.<br><br>
+          
+          여러분의 소중한 의견을 바탕으로 <br>
+          독서의 즐거움을 나누고,<br>
+          독서 문화를 활성화하기 위해 노력하겠습니다.
+          
+          감사합니다.</p>
+          <div class="mt-3 bg-white p-3 w-full rounded-lg">
+            <p style="text-align: start;">Q. 성별</p>
+            <div class="flex w-full">
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">남자</span>
+                <input type="radio" name="radio-10" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+            </div>
+            <div class="flex w-full">
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">여자</span>
+                <input type="radio" name="radio-10" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+            </div>
+          </div>
+          <div class="mt-3 bg-white p-3 w-full rounded-lg">
+            <p style="text-align: start;">Q. 연령대</p>
+            <div class="flex w-full flex-col">
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">20대 초반(20~22)</span>
+                <input type="radio" name="radio-11" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">20대 중반(23~26)</span>
+                <input type="radio" name="radio-11" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">20대 후반(27~29)</span>
+                <input type="radio" name="radio-11" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">30대 초반(30~32)</span>
+                <input type="radio" name="radio-11" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">30대 중반(33~36)</span>
+                <input type="radio" name="radio-11" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">30대 후반(37~39)</span>
+                <input type="radio" name="radio-11" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+            </div>
+          </div>
+          <div class="mt-3 bg-white p-3 w-full rounded-lg">
+            <p style="text-align: start;">Q. 지역구</p>
+            <div class="flex w-full flex-col">
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">부산진구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">해운대구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">사하구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">금정구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">남구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">북구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">사상구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">동래구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">수영구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">연제구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">서구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">영도구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">동구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">강서구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">중구</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">기장군</span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">기타 : </span>
+                <input type="radio" name="radio-12" class="radio checked:bg-blue-500" checked="checked" />
+                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="기타 지역" />
+              </label>
+            </div>
+          </div>
+          <div class="mt-3 bg-white p-3 w-full rounded-lg">
+            <p style="text-align: start;">Q. 어떤 분야에서 일하시나요?</p>
+            <div class="flex w-full flex-col">
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">학생</span>
+                <input type="radio" name="radio-13" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">전문직(의사, 변호사, 회계사, 엔지니어, IT전문가 등)</span>
+                <input type="radio" name="radio-13" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">관리직(기업 영영자, 부서장 등)</span>
+                <input type="radio" name="radio-13" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">서비스업(교육, 의료, 관광, 음식 등)</span>
+                <input type="radio" name="radio-13" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">제조업(생산직, 기술직 등)</span>
+                <input type="radio" name="radio-13" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">건설업(건축가, 시공사 등)</span>
+                <input type="radio" name="radio-13" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">농업 및 어업(농부, 어부 등)</span>
+                <input type="radio" name="radio-13" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">예술 및 디자인(디자이너, 화가, 작가, 배우 등)</span>
+                <input type="radio" name="radio-13" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">운송업(택배기사, 버스기사 등)</span>
+                <input type="radio" name="radio-13" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">공공기관 및 행정직(공무원, 경찰, 소방관 등)</span>
+                <input type="radio" name="radio-13" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">자영업 및 창업(자영업자, 창업자 등)</span>
+                <input type="radio" name="radio-13" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">기타 : </span>
+                <input type="radio" name="radio-13" class="radio checked:bg-blue-500" checked="checked" />
+                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="기타" />
+              </label>
+            </div>
+          </div>
+          <div class="mt-3 bg-white p-3 w-full rounded-lg">
+            <p style="text-align: start;">Q. 책 자주 읽으시나요?</p>
+            <div class="flex w-full flex-col">
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">별로 안 친해서..</span>
+                <input type="radio" name="radio-14" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">연 1권 이상</span>
+                <input type="radio" name="radio-14" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">월 1권 이상</span>
+                <input type="radio" name="radio-14" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">주 1권 이상</span>
+                <input type="radio" name="radio-14" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">기타 : </span>
+                <input type="radio" name="radio-14" class="radio checked:bg-blue-500" checked="checked" />
+                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="기타" />
+              </label>
+            </div>
+          </div>
+          <div class="mt-3 bg-white p-3 w-full rounded-lg">
+            <p style="text-align: start;">Q. 어떤 책을 좋아하세요?</p>
+            <div class="flex w-full flex-col">
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">논문 등 학술서적</span>
+                <input type="radio" name="radio-15" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">만화</span>
+                <input type="radio" name="radio-15" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">소설/시</span>
+                <input type="radio" name="radio-15" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">수필(에세이)</span>
+                <input type="radio" name="radio-15" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">잡지</span>
+                <input type="radio" name="radio-15" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">종교</span>
+                <input type="radio" name="radio-15" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">책을 좋아하지 않음</span>
+                <input type="radio" name="radio-15" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">기타 : </span>
+                <input type="radio" name="radio-15" class="radio checked:bg-blue-500" checked="checked" />
+                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="기타" />
+              </label>
+            </div>
+          </div>
+          <div class="mt-3 bg-white p-3 w-full rounded-lg">
+            <p style="text-align: start;">Q. 그 중 어떤 책을 좋아하시는지 좀 더 자세하게 알려주실 수 있나요?</p>
+            <div class="flex w-full flex-col">
+              <label class="label cursor-pointer flex gap-3">
+                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
+              </label>
+            </div>
+          </div>
+          <div class="mt-3 bg-white p-3 w-full rounded-lg">
+            <p style="text-align: start;">Q. 20~30대 청년들에게 추천하고 싶은 책이 있다면 어떤 책일까요?(없으면 기억에 남는 책)</p>
+            <div class="flex w-full flex-col">
+              <label class="label cursor-pointer flex gap-3">
+                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
+              </label>
+            </div>
+          </div>
+          <div class="mt-3 bg-white p-3 w-full rounded-lg">
+            <p style="text-align: start;">Q. 알려주신 내용을 좀 더 짜임새 있게 보강하고 활용하기 위해 인터뷰에 참여해 주실 수 있으신가요?</p>
+            <div class="flex w-full flex-col">
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">네</span>
+                <input type="radio" name="radio-20" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+              <label class="label cursor-pointer flex gap-3">
+                <span class="label-text">아니요</span>
+                <input type="radio" name="radio-20" class="radio checked:bg-blue-500" checked="checked" />
+              </label>
+            </div>
+          </div>
+          <div class="mt-3 bg-white p-3 w-full rounded-lg">
+            <p style="text-align: start;">연락처를 남겨주시면 담당자가 연락드리겠습니다!<br><br>
+
+              추첨을 통하여 카페 기프티콘도 제공드리며,<br>
+              추후 사업 진행현황 등 관련 소식도 문자로 전해드립니다.<br>
+              (뉴스 수신에 동의하지 않으시면 담당자에게 알려주세요)<br><br>
+              ※ 000-0000-0000 형식으로 부탁드립니다.<br>
+            </p>
+            <div class="flex w-full flex-col">
+              <label class="label cursor-pointer flex gap-3">
+                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
+              </label>
+            </div>
+          </div>
+          <div class="mt-3 bg-white p-3 w-full rounded-lg">
+            <p style="text-align: start;">답변자 성함</p>
+            <div class="flex w-full flex-col">
+              <label class="label cursor-pointer flex gap-3">
+                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
+              </label>
+            </div>
+          </div>
+          <div class="w-full bg-white rounded-lg mt-3">
+            <button class="btn btn-outline btn-success w-full">Success</button>
+          </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>
