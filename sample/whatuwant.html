@@ -470,9 +470,9 @@
                     clearInterval(interval); // 타이머 정지 
                     countdownElement.classList.add("expired"); // 종료 후 스타일 추가 
                     countdownElement.textContent = "종료"; // 종료 메시지 표시 
-                    setTimeout(()=>{
-                        window.location.reload();
-                    },500)
+                    countdownElement.addEventListener('click',function(){
+                        
+                    })
                 }else{
                     setTimeout(() => {
                         countdownElement.classList.remove("shrinking");
