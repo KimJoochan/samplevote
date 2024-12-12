@@ -2,43 +2,58 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>What you want / What U want</title>
-  <meta name="title" content="What you want">
-  <meta name="description" content=" 현재 컨텐츠 소비 현황: 유튜브 알고리즘, SNS, 숏츠, 릴스 등 자동적으로 보여주는 컨텐츠를
+    <meta charset="utf-8" />
+    <title>What you want / What U want</title>
+    <meta name="title" content="What you want">
+    <meta name="description" content=" 현재 컨텐츠 소비 현황: 유튜브 알고리즘, SNS, 숏츠, 릴스 등 자동적으로 보여주는 컨텐츠를
   수동적으로 소비 중입니다.">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-  <!-- Demo styles -->
-  <style>
-    *{
-        font-family: 'Noto Sans KR', sans-serif;
-    }
-    .mySwiper{
-        width: 100%;
-        max-width: 720px;
-    }
-    .swiper-slide{
-        display: flex;
-        justify-content: center;
-    }
-    .swiper-slide img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-  
-  </style>
+    <!-- Demo styles -->
+    <style>
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        .mySwiper {
+            width: 100%;
+            max-width: 720px;
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+        }
+
+        .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .countdown {
+            transition: transform 0.3s ease, font-size 0.3s ease;
+            color: #4CAF50;
+            font-size: 4rem;
+        }
+
+        .shrinking {
+            transform: scale(0.6);
+            /* 크기를 작게 */
+            font-size: 4rem;
+            /* 폰트 크기 축소 */
+        }
+    </style>
 </head>
 
 <body>
-  <!-- Swiper -->
+    <!-- Swiper -->
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -48,72 +63,72 @@
                 <div class="flex flex-col p-[40px]">
                     <section class="bg-blue-600 text-white py-12 border rounded-xl">
                         <div class="container mx-auto text-center">
-                          <h1 class="text-4xl font-bold">◆ 회사명 : 와츄원</h1>
-                          <p class="mt-2 text-lg">What you want / What U want</p>
+                            <h1 class="text-4xl font-bold">◆ 회사명 : 와츄원</h1>
+                            <p class="mt-2 text-lg">What you want / What U want</p>
                         </div>
-                      </section>
-                    
-                      <!-- 설립 배경 -->
-                      <section class="py-6 px-4 bg-white">
+                    </section>
+
+                    <!-- 설립 배경 -->
+                    <section class="py-6 px-4 bg-white">
                         <div class="container mx-auto">
-                          <h2 class="text-3xl font-semibold text-gray-900 mb-4">설립 배경</h2>
-                          <p class="text-gray-700 text-lg">
-                            현재 컨텐츠 소비 현황: 유튜브 알고리즘, SNS, 숏츠, 릴스 등 자동적으로 보여주는 컨텐츠를
-                            수동적으로 소비 중입니다.
-                          </p>
+                            <h2 class="text-3xl font-semibold text-gray-900 mb-4">설립 배경</h2>
+                            <p class="text-gray-700 text-lg">
+                                현재 컨텐츠 소비 현황: 유튜브 알고리즘, SNS, 숏츠, 릴스 등 자동적으로 보여주는 컨텐츠를
+                                수동적으로 소비 중입니다.
+                            </p>
                         </div>
-                      </section>
-                    
-                      <!-- 설립 취지 -->
-                      <section class="py-6 px-4 bg-gray-50 rounded-xl">
+                    </section>
+
+                    <!-- 설립 취지 -->
+                    <section class="py-6 px-4 bg-gray-50 rounded-xl">
                         <div class="container mx-auto">
-                          <h2 class="text-3xl font-semibold text-gray-900 mb-4">설립 취지</h2>
-                          <p class="text-gray-700 text-lg">
-                            알고리즘에 의한 제한된 컨텐츠 소비가 아닌, 내가 직접 주체적으로 선택하고 골라먹는 컨텐츠
-                            및 교육용 AI 어플 제작을 목표로 하고 있습니다.
-                          </p>
+                            <h2 class="text-3xl font-semibold text-gray-900 mb-4">설립 취지</h2>
+                            <p class="text-gray-700 text-lg">
+                                알고리즘에 의한 제한된 컨텐츠 소비가 아닌, 내가 직접 주체적으로 선택하고 골라먹는 컨텐츠
+                                및 교육용 AI 어플 제작을 목표로 하고 있습니다.
+                            </p>
                         </div>
-                      </section>
-                    
-                      <!-- 창업 흐름 -->
-                      <section class="py-6 px-4 bg-white">
+                    </section>
+
+                    <!-- 창업 흐름 -->
+                    <section class="py-6 px-4 bg-white">
                         <div class="container mx-auto">
-                          <h2 class="text-3xl font-semibold text-gray-900 mb-4">창업 흐름</h2>
-                          <ul class="list-decimal pl-8 text-gray-700 text-lg">
-                            <li>직장인 창업동아리로 시작</li>
-                            <li>창업아이템 구체화</li>
-                            <li>법인 사업자 등록증 발급(홈택스)</li>
-                            <li>시제품(프로토타입, 베타버전) 개발</li>
-                            <li>사업계획서 작성</li>
-                            <li>창업지원공고 지원</li>
-                            <li>합격 시 지원금으로 추가 개발</li>
-                          </ul>
+                            <h2 class="text-3xl font-semibold text-gray-900 mb-4">창업 흐름</h2>
+                            <ul class="list-decimal pl-8 text-gray-700 text-lg">
+                                <li>직장인 창업동아리로 시작</li>
+                                <li>창업아이템 구체화</li>
+                                <li>법인 사업자 등록증 발급(홈택스)</li>
+                                <li>시제품(프로토타입, 베타버전) 개발</li>
+                                <li>사업계획서 작성</li>
+                                <li>창업지원공고 지원</li>
+                                <li>합격 시 지원금으로 추가 개발</li>
+                            </ul>
                         </div>
-                      </section>
-                    
-                      <!-- 구성 -->
-                      <section class="py-6 px-4 bg-gray-50">
+                    </section>
+
+                    <!-- 구성 -->
+                    <section class="py-6 px-4 bg-gray-50">
                         <div class="container mx-auto">
-                          <h2 class="text-3xl font-semibold text-gray-900 mb-4">구성</h2>
-                          <ul class="list-inside pl-8 text-gray-700 text-lg">
-                            <li>SW개발팀</li>
-                            <li>UI, UX개발팀</li>
-                            <li>마케팅팀(현장섭외 병행)</li>
-                          </ul>
+                            <h2 class="text-3xl font-semibold text-gray-900 mb-4">구성</h2>
+                            <ul class="list-inside pl-8 text-gray-700 text-lg">
+                                <li>SW개발팀</li>
+                                <li>UI, UX개발팀</li>
+                                <li>마케팅팀(현장섭외 병행)</li>
+                            </ul>
                         </div>
-                      </section>
-                    
-                      <!-- 현장 섭외 취지 -->
-                      <section class="py-6 px-4 bg-white">
+                    </section>
+
+                    <!-- 현장 섭외 취지 -->
+                    <section class="py-6 px-4 bg-white">
                         <div class="container mx-auto">
-                          <h2 class="text-3xl font-semibold text-gray-900 mb-4">현장 섭외 취지</h2>
-                          <p class="text-gray-700 text-lg">
-                            창업지원금을 받기 위해서는 베타버전(프로토타입) 개발하여 사업계획서를 작성 후 창업지원공고에
-                            지원해야 합니다. 이를 위해 베타버전 개발을 위한 어플 사용자의 습득하고자 하는 정보 카테고리
-                            니즈 및 각각의 카테고리에 해당하는 세부정보를 수집하고자 합니다.
-                          </p>
+                            <h2 class="text-3xl font-semibold text-gray-900 mb-4">현장 섭외 취지</h2>
+                            <p class="text-gray-700 text-lg">
+                                창업지원금을 받기 위해서는 베타버전(프로토타입) 개발하여 사업계획서를 작성 후 창업지원공고에
+                                지원해야 합니다. 이를 위해 베타버전 개발을 위한 어플 사용자의 습득하고자 하는 정보 카테고리
+                                니즈 및 각각의 카테고리에 해당하는 세부정보를 수집하고자 합니다.
+                            </p>
                         </div>
-                      </section>
+                    </section>
                 </div>
             </div>
             <div class="swiper-slide">
@@ -122,294 +137,348 @@
             <div class="swiper-slide">
                 <img src="./two.jpg">
             </div>
-        <div class="swiper-slide">
-            <div class="bg-gray-200">
-                <div class="w-full max-w-lg mx-auto p-3">
-                    <div role="alert" class="alert bg-blue-300 flex mt-3 flex-col gap-2 items-start">
-                        <div class="flex w-full bg-white p-3 border rounded-lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="h-6 w-6 shrink-0 stroke-current">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                            <span class="ml-1 text-lg">와츄원 | <b>와츄원</b></span>
-                        </div>
-                        <p style="text-align: start;" class="bg-white w-full p-3 border rounded-lg">
-                            <b class="text-xl">결정장애란?</b><br /><br />
-                            어떤 결정을 해야 할지 판단이 서지 않아 병적으로 모든 결정을 뒤로 미루는 것을 뜻한다
-                        </p>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold	" style="text-align: start;">Q. 메뉴를 선택하는게 힘들다 </h1>
-                            <p style="text-align: start;">보통은 타인이 결정해준 메뉴를 그냥 먹는다 </p>
-                            <div class="flex w-full">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <span class="label-text">Yes</span>
-                                    <input type="radio" name="radio-10" class="radio checked:bg-blue-500" />
-                                </label>
+            <div class="swiper-slide" id="captureArea">
+                <div class="bg-gray-200">
+                    <div class="w-full max-w-lg mx-auto p-3">
+                        <div role="alert" class="alert bg-blue-300 flex mt-3 flex-col gap-2 items-start">
+                            <div class="flex w-full bg-white p-3 border rounded-lg">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="h-6 w-6 shrink-0 stroke-current">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                                <span class="ml-1 text-lg">와츄원 | <b>와츄원</b></span>
                             </div>
-                            <div class="flex w-full">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <span class="label-text">No</span>
-                                    <input type="radio" name="radio-10" class="radio checked:bg-blue-500" />
-                                </label>
-                            </div>
-                        </div>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold" style="text-align: start;">Q. 질문을 받게 되면 </h1>
-                            <p style="text-align: start;">질문을 받게 되면 대부분 '글쎄'<br />
-                                '아마도'라고 얼버무리는 경우가 많다</p>
-                            <div class="flex w-full">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <span class="label-text">Yes</span>
-                                    <input type="radio" name="radio-11" class="radio checked:bg-blue-500" />
-                                </label>
-                            </div>
-                            <div class="flex w-full">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <span class="label-text">No</span>
-                                    <input type="radio" name="radio-11" class="radio checked:bg-blue-500" />
-                                </label>
-                            </div>
-                        </div>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold" style="text-align: start;">Q. 사소한 결정을 지인에게 정해달라 부탁한 적 있다 </h1>
-                            <div class="flex w-full">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <span class="label-text">Yes</span>
-                                    <input type="radio" name="radio-12" class="radio checked:bg-blue-500" />
-                                </label>
-                            </div>
-                            <div class="flex w-full">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <span class="label-text">No</span>
-                                    <input type="radio" name="radio-12" class="radio checked:bg-blue-500" />
-                                </label>
-                            </div>
-                        </div>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold" style="text-align: start;">Q. 혼자서 쇼핑할때 내가 좋아하는 스타일을 고르기 어렵다</h1>
-                            <div class="flex w-full">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <span class="label-text">Yes</span>
-                                    <input type="radio" name="radio-13" class="radio checked:bg-blue-500" />
-                                </label>
-                            </div>
-                            <div class="flex w-full">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <span class="label-text">No</span>
-                                    <input type="radio" name="radio-13" class="radio checked:bg-blue-500" />
-                                </label>
-                            </div>
-                        </div>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold" style="text-align: start;">Q. 내가 선택한 과정과 결과에 대한 스트레스가 크다</h1>
-                            <div class="flex w-full">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <span class="label-text">Yes</span>
-                                    <input type="radio" name="radio-14" class="radio checked:bg-blue-500" />
-                                </label>
-                            </div>
-                            <div class="flex w-full">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <span class="label-text">No</span>
-                                    <input type="radio" name="radio-14" class="radio checked:bg-blue-500" />
-                                </label>
-                            </div>
-                        </div>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="" style="text-align: start;">Q. 성별</h1>
-                            <div class="flex w-full">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <span class="label-text">남</span>
-                                    <input type="radio" name="radio-15" class="radio checked:bg-blue-500" />
-                                </label>
-                            </div>
-                            <div class="flex w-full">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <span class="label-text">여</span>
-                                    <input type="radio" name="radio-15" class="radio checked:bg-blue-500" />
-                                </label>
-                            </div>
-                            <hr>
-                            <h1 class="mt-3" style="text-align: start;">Q. 연령대</h1>
-                            <div class="flex w-full flex-col">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <input type="number" class="input flex-1 pl-3 border border-black" placeholder="답변을 입력해주세요" />
-                                </label>
-                            </div>
-                            <hr>
-                            <h1 class="mt-3" style="text-align: start;">Q. 지역구</h1>
-                            <div class="flex w-full flex-col">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <input type="text" class="input flex-1 pl-3 border border-black" placeholder="사시는 곳 동까지만" />
-                                </label>
-                            </div>
-                            <hr>
-                            <h1 class="mt-3" style="text-align: start;">Q. 이름</h1>
-                            <div class="flex w-full flex-col">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <input type="text" class="input flex-1 pl-3 border border-black" placeholder="성명" />
-                                </label>
-                            </div>
-                            <hr>
-                            <script>
-                                const autoHyphen = (target) => {
-                                    target.value = target.value
-                                        .replace(/[^0-9]/g, '')
-                                        .replace(/^(\d{0,3})(\d{0,4})(\d{0,4})$/g, "$1-$2-$3").replace(/(\-{1,2})$/g, "");
-                                }
-                                const onHandleAgree = (e)=>{
-                                    e.classList.toggle('bg-green-700');
-                                    e.classList.toggle('text-white');
-                                }
-
-                            </script>
-                            <h1 class="mt-3" style="text-align: start;">Q. 번호</h1>
-                            <div class="flex w-full flex-col">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <input type="text" autocomplete="off" maxlegth="13" class="input flex-1 pl-3 border border-black" oninput="autoHyphen(this)" pattern="010-[0-9]{3,4}-[0-9]{4}" placeholder="연락처를 입력해주세요(-없이 번호만 입력)" />
-                                </label>
-                            </div>
-                            <hr>
-                            <h1 class="mt-3" style="text-align: start;">Q. 추천인</h1>
-                            <div class="flex w-full flex-col">
-                                <label class="label cursor-pointer flex gap-3">
-                                    <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
-                                </label>
-                            </div>
-
-                            <div class="w-full bg-white rounded-lg mt-3">
-                                <h1 class="mt-3" style="text-align: start;">Q. 개인정보 수집 및 이용 동의</h1>
-                                <p class="text-gray" style="text-align: start;">동의를 거부하실 수 있으나 설문 참여가 불가능합니다</p>
-                                <div class="mt-1 p-3 bg-slate-300 my-3 rounded-lg flex flex-col justify-start items-start">
-                                    <p class="text-gray">수집하는 개인정보 항목</p>
-                                    <p class="text-lg font-semibold">이름, 연락처</p>
-                                    <p class="text-gray mt-3">수집 및 이용 목적</p>
-                                    <p class="text-lg font-semibold">이벤트 진행 및 당첨자 안내</p>
-                                    <p class="text-gray mt-3">보유 및 이용기간</p>
-                                    <p class="text-lg font-semibold text-red-500">당첨자 발표 후 1개월</p>
+                            <p style="text-align: start;" class="bg-white w-full p-3 border rounded-lg">
+                                <b class="text-xl">결정장애란?</b><br /><br />
+                                어떤 결정을 해야 할지 판단이 서지 않아 병적으로 모든 결정을 뒤로 미루는 것을 뜻한다
+                            </p>
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold	" style="text-align: start;">Q. 메뉴를 선택하는게 힘들다 </h1>
+                                <p style="text-align: start;">보통은 타인이 결정해준 메뉴를 그냥 먹는다 </p>
+                                <div class="flex w-full">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <span class="label-text">Yes</span>
+                                        <input type="radio" name="radio-10" class="radio checked:bg-blue-500" />
+                                    </label>
                                 </div>
-                                <button class="btn btn-outline w-full" onclick="onHandleAgree(this)">개인정보 수집 및 이용에 동의합니다</button>
+                                <div class="flex w-full">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <span class="label-text">No</span>
+                                        <input type="radio" name="radio-10" class="radio checked:bg-blue-500" />
+                                    </label>
+                                </div>
                             </div>
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold" style="text-align: start;">Q. 질문을 받게 되면 </h1>
+                                <p style="text-align: start;">질문을 받게 되면 대부분 '글쎄'<br />
+                                    '아마도'라고 얼버무리는 경우가 많다</p>
+                                <div class="flex w-full">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <span class="label-text">Yes</span>
+                                        <input type="radio" name="radio-11" class="radio checked:bg-blue-500" />
+                                    </label>
+                                </div>
+                                <div class="flex w-full">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <span class="label-text">No</span>
+                                        <input type="radio" name="radio-11" class="radio checked:bg-blue-500" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold" style="text-align: start;">Q. 사소한 결정을 지인에게 정해달라 부탁한 적 있다 </h1>
+                                <div class="flex w-full">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <span class="label-text">Yes</span>
+                                        <input type="radio" name="radio-12" class="radio checked:bg-blue-500" />
+                                    </label>
+                                </div>
+                                <div class="flex w-full">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <span class="label-text">No</span>
+                                        <input type="radio" name="radio-12" class="radio checked:bg-blue-500" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold" style="text-align: start;">Q. 혼자서 쇼핑할때 내가 좋아하는 스타일을 고르기 어렵다</h1>
+                                <div class="flex w-full">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <span class="label-text">Yes</span>
+                                        <input type="radio" name="radio-13" class="radio checked:bg-blue-500" />
+                                    </label>
+                                </div>
+                                <div class="flex w-full">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <span class="label-text">No</span>
+                                        <input type="radio" name="radio-13" class="radio checked:bg-blue-500" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold" style="text-align: start;">Q. 내가 선택한 과정과 결과에 대한 스트레스가 크다</h1>
+                                <div class="flex w-full">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <span class="label-text">Yes</span>
+                                        <input type="radio" name="radio-14" class="radio checked:bg-blue-500" />
+                                    </label>
+                                </div>
+                                <div class="flex w-full">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <span class="label-text">No</span>
+                                        <input type="radio" name="radio-14" class="radio checked:bg-blue-500" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="" style="text-align: start;">Q. 성별</h1>
+                                <div class="flex w-full">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <span class="label-text">남</span>
+                                        <input type="radio" name="radio-15" class="radio checked:bg-blue-500" />
+                                    </label>
+                                </div>
+                                <div class="flex w-full">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <span class="label-text">여</span>
+                                        <input type="radio" name="radio-15" class="radio checked:bg-blue-500" />
+                                    </label>
+                                </div>
+                                <hr>
+                                <h1 class="mt-3" style="text-align: start;">Q. 연령대</h1>
+                                <div class="flex w-full flex-col">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <input type="number" class="input flex-1 pl-3 border border-black" placeholder="답변을 입력해주세요" />
+                                    </label>
+                                </div>
+                                <hr>
+                                <h1 class="mt-3" style="text-align: start;">Q. 지역구</h1>
+                                <div class="flex w-full flex-col">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <input type="text" class="input flex-1 pl-3 border border-black" placeholder="사시는 곳 동까지만" />
+                                    </label>
+                                </div>
+                                <hr>
+                                <h1 class="mt-3" style="text-align: start;">Q. 이름</h1>
+                                <div class="flex w-full flex-col">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <input type="text" class="input flex-1 pl-3 border border-black" placeholder="성명" />
+                                    </label>
+                                </div>
+                                <hr>
+                                <script>
+                                    const autoHyphen = (target) => {
+                                        target.value = target.value
+                                            .replace(/[^0-9]/g, '')
+                                            .replace(/^(\d{0,3})(\d{0,4})(\d{0,4})$/g, "$1-$2-$3").replace(/(\-{1,2})$/g, "");
+                                    }
+                                    const onHandleAgree = (e) => {
+                                        e.classList.toggle('bg-green-700');
+                                        e.classList.toggle('text-white');
+                                    }
+                                </script>
+                                <h1 class="mt-3" style="text-align: start;">Q. 번호</h1>
+                                <div class="flex w-full flex-col">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <input type="text" autocomplete="off" maxlegth="13" class="input flex-1 pl-3 border border-black" oninput="autoHyphen(this)" pattern="010-[0-9]{3,4}-[0-9]{4}" placeholder="연락처를 입력해주세요(-없이 번호만 입력)" />
+                                    </label>
+                                </div>
+                                <hr>
+                                <h1 class="mt-3" style="text-align: start;">Q. 추천인</h1>
+                                <div class="flex w-full flex-col">
+                                    <label class="label cursor-pointer flex gap-3">
+                                        <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
+                                    </label>
+                                </div>
 
-                            <div class="w-full bg-white rounded-lg mt-3 hidden">
-                                <button class="btn btn-outline btn-success w-full hover:white">Success</button>
+                                <div class="w-full bg-white rounded-lg mt-3">
+                                    <h1 class="mt-3" style="text-align: start;">Q. 개인정보 수집 및 이용 동의</h1>
+                                    <p class="text-gray" style="text-align: start;">동의를 거부하실 수 있으나 설문 참여가 불가능합니다</p>
+                                    <div class="mt-1 p-3 bg-slate-300 my-3 rounded-lg flex flex-col justify-start items-start">
+                                        <p class="text-gray">수집하는 개인정보 항목</p>
+                                        <p class="text-lg font-semibold">이름, 연락처</p>
+                                        <p class="text-gray mt-3">수집 및 이용 목적</p>
+                                        <p class="text-lg font-semibold">이벤트 진행 및 당첨자 안내</p>
+                                        <p class="text-gray mt-3">보유 및 이용기간</p>
+                                        <p class="text-lg font-semibold text-red-500">당첨자 발표 후 1개월</p>
+                                    </div>
+                                    <button class="btn btn-outline w-full" onclick="onHandleAgree(this)">개인정보 수집 및 이용에 동의합니다</button>
+                                </div>
+
+                                <div class="w-full bg-white rounded-lg mt-3 hidden">
+                                    <button class="btn btn-outline btn-success w-full hover:white">Success</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
-          
-        </div>
-        <div class="swiper-slide" style="position: relative;">
-            <div style="position: absolute; top: 0; left: 0; width:100%; height: 100%; background-color: rgba(255,255,255,0.5); z-index: 999;"></div>
-            <div class="bg-gray-200 relative">
-                <div class="w-full max-w-lg mx-auto p-3">
-                    <div role="alert" class="alert bg-blue-300 flex mt-3 flex-col gap-2 items-start">
-                        <div class="flex w-full bg-white p-3 border rounded-lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="h-6 w-6 shrink-0 stroke-current">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                            <span class="ml-1 text-lg">와츄원 | <b>와츄원</b></span>
-                        </div>
-                        <p style="text-align: start;" class="bg-white w-full p-3 border rounded-lg">
-                            <b class="text-xl">결정장애란?</b><br /><br />
-                            어떤 결정을 해야 할지 판단이 서지 않아 병적으로 모든 결정을 뒤로 미루는 것을 뜻한다
-                        </p>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold" style="text-align: start;">Q. 나는 현재 무엇을 하며 살아가고 있나요? </h1>
-                            <div class="flex w-full mt-3">
-                                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+
+            </div>
+            <div class="swiper-slide" style="position: relative;">
+                <div style="position: absolute; top: 0; left: 0; width:100%; height: 100%; background-color: rgba(255,255,255,0.5); z-index: 999;"></div>
+                <div class="bg-gray-200 relative">
+                    <div class="w-full max-w-lg mx-auto p-3">
+                        <div role="alert" class="alert bg-blue-300 flex mt-3 flex-col gap-2 items-start">
+                            <div class="flex w-full bg-white p-3 border rounded-lg">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="h-6 w-6 shrink-0 stroke-current">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                                <span class="ml-1 text-lg">와츄원 | <b>와츄원</b></span>
                             </div>
-                        </div>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold" style="text-align: start;">Q. 내가 바꾸고 싶은 성향 또는 채우고 싶은 성향이 있나요?</h1>
-                            <div class="flex w-full mt-3">
-                                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                            <p style="text-align: start;" class="bg-white w-full p-3 border rounded-lg">
+                                <b class="text-xl">결정장애란?</b><br /><br />
+                                어떤 결정을 해야 할지 판단이 서지 않아 병적으로 모든 결정을 뒤로 미루는 것을 뜻한다
+                            </p>
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold" style="text-align: start;">Q. 나는 현재 무엇을 하며 살아가고 있나요? </h1>
+                                <div class="flex w-full mt-3">
+                                    <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold" style="text-align: start;">Q. 요즘 내 고민이 있다면 그걸 해결하기 위한 취미나 관심사가 있나요? </h1>
-                            <div class="flex w-full mt-3">
-                                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold" style="text-align: start;">Q. 내가 바꾸고 싶은 성향 또는 채우고 싶은 성향이 있나요?</h1>
+                                <div class="flex w-full mt-3">
+                                    <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold" style="text-align: start;">Q. 언제 무엇을 할때 가장 행복한가요?</h1>
-                            <div class="flex w-full mt-3">
-                                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold" style="text-align: start;">Q. 요즘 내 고민이 있다면 그걸 해결하기 위한 취미나 관심사가 있나요? </h1>
+                                <div class="flex w-full mt-3">
+                                    <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold" style="text-align: start;">Q. 인생에서 가장 힘든 순간이 언제인가요? 어떻게 극복했나요?</h1>
-                            <div class="flex w-full mt-3">
-                                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold" style="text-align: start;">Q. 언제 무엇을 할때 가장 행복한가요?</h1>
+                                <div class="flex w-full mt-3">
+                                    <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold" style="text-align: start;">Q. 최근에 결정한 일이 무엇인가요? </h1>
-                            <div class="flex w-full mt-3">
-                                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold" style="text-align: start;">Q. 인생에서 가장 힘든 순간이 언제인가요? 어떻게 극복했나요?</h1>
+                                <div class="flex w-full mt-3">
+                                    <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold" style="text-align: start;">Q. 결정에 어려움을 겪는 이유가 무엇인가요?</h1>
-                            <div class="flex w-full mt-3">
-                                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold" style="text-align: start;">Q. 최근에 결정한 일이 무엇인가요? </h1>
+                                <div class="flex w-full mt-3">
+                                    <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="mt-3 bg-white p-3 w-full rounded-lg">
-                            <h1 class="text-xl font-semibold" style="text-align: start;">Q. 나의 삶의 만족도는?</h1>
-                            <div class="flex w-full mt-3">
-                                <input type="range" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold" style="text-align: start;">Q. 결정에 어려움을 겪는 이유가 무엇인가요?</h1>
+                                <div class="flex w-full mt-3">
+                                    <input type="text" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                                </div>
+                            </div>
+                            <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                                <h1 class="text-xl font-semibold" style="text-align: start;">Q. 나의 삶의 만족도는?</h1>
+                                <div class="flex w-full mt-3">
+                                    <input type="range" class="input flex-1 pl-3 border border-black" placeholder="답변 대기" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                    </div>
-                </div>
-        </div>
-        <div class="swiper-slide">
-            <style>
-                /* 애니메이션 효과 */
-                @keyframes shimmer {
-                  0% {
-                    background-position: -1000px 0;
-                  }
-                  100% {
-                    background-position: 1000px 0;
-                  }
-                }
-            </style>
-            <div class="bg-gray-50 flex items-center justify-center h-screen">
-                <div class="text-center p-3">
-                    <h1 class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 animate-shimmer bg-repeat-x">
-                        감사합니다
-                    </h1>
-                    <p class="mt-4 text-xl text-gray-600">당신의 소중한 시간과 관심에 진심으로 감사드립니다.</p>
                 </div>
             </div>
-        </div>
+            <div class="swiper-slide" id="captureArea2">
+                <style>
+                    /* 애니메이션 효과 */
+                    @keyframes shimmer {
+                        0% {
+                            background-position: -1000px 0;
+                        }
+
+                        100% {
+                            background-position: 1000px 0;
+                        }
+                    }
+                </style>
+                <div class="bg-gray-50 flex items-center justify-center h-screen">
+                    <div class="text-center p-3">
+                        <h1 class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 animate-shimmer bg-repeat-x">
+                            감사합니다
+                        </h1>
+                        <p class="m2-4 text-xl text-gray-600 p-9">당신의 소중한 시간과 관심에 진심으로 감사드립니다.</p>
+                        <button class="btn btn-outline btn-accent w-full" onclick="capture()">처음으로</button>
+                    </div>
+
+                    <div class="timer hidden fixed top-0 left-0 h-screen w-full" id="timer">
+                        <div class="w-full h-full bg-gray-300 flex justify-center items-center">
+                            <span id="countdown" class="countdown text-white"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
     </div>
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      autoHeight: true, // 슬라이드 높이를 자동으로 조정
-      pagination: {
-        el: ".swiper-pagination",
-        type: "progressbar",
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
-</body>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoHeight: true, // 슬라이드 높이를 자동으로 조정
+            pagination: {
+                el: ".swiper-pagination",
+                type: "progressbar",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
 
-</html>
+        function captureElement(element) {
+            domtoimage.toPng(element)
+                .then(function(dataUrl) {
+                    var img = new Image();
+                    img.src = dataUrl;
+
+                    // 이미지 다운로드 링크 생성
+                    const link = document.createElement('a');
+                    link.href = dataUrl;
+                    link.download = 'capture.png';
+                    link.click();
+                })
+                .catch(function(error) {
+                    console.error('캡처 중 오류 발생:', error);
+                });
+        }
+
+        // 사용 예시
+        function capture() {
+            const element = document.getElementById('captureArea');
+            captureElement(element);
+            let countdown = 5;
+            const countdownElement = document.getElementById("countdown");
+            document.querySelector("#timer").classList.remove('hidden');
+
+            // 타이머 시작
+            const interval = setInterval(() => {
+                countdown--; // 타이머 값 감소
+
+                // 타이머 값 업데이트
+                countdownElement.textContent = countdown;
+                countdownElement.classList.add("shrinking");
+                // 타이머 값이 0이면 타이머 종료
+                if (countdown <= 0) {
+                    clearInterval(interval); // 타이머 정지 
+                    countdownElement.classList.add("expired"); // 종료 후 스타일 추가 
+                    countdownElement.textContent = "종료"; // 종료 메시지 표시 
+                    setTimeout(()=>{
+                        window.location.reload();
+                    },500)
+                }else{
+                    setTimeout(() => {
+                        countdownElement.classList.remove("shrinking");
+                    }, 300); 
+                }
+            }, 1000); // 1초마다 타이머 값 감소
+        }
+    </script>
+</body></html>
