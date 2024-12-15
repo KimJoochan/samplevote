@@ -24,11 +24,23 @@
         .mySwiper {
             width: 100%;
             max-width: 720px;
+            min-height: 100vh;
         }
 
         .swiper-slide {
             display: flex;
             justify-content: center;
+            min-height: 100vh;
+            align-items: center;
+        }
+        .swiper-slide.three_bg{
+            background-color: #2cc3de   
+        }
+        .swiper-slide.onw_bg{
+            background-color: #fffcd9
+        }
+        .swiper-slide.two_bg{
+            background-color: #52ccff;
         }
 
         .swiper-slide img {
@@ -56,7 +68,7 @@
     <!-- Swiper -->
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide three_bg">
                 <img src="./three.jpg">
             </div>
             <div class="swiper-slide">
@@ -131,10 +143,10 @@
                     </section>
                 </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide onw_bg">
                 <img src="./one.jpg">
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide two_bg">
                 <img src="./two.jpg">
             </div>
             <div class="swiper-slide" id="captureArea">
