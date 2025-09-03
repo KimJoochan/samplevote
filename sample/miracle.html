@@ -14,7 +14,7 @@
   </style>
 </head>
 <body>
-  <div class="bg-gray-200">
+  <div class="bg-gray-200" id="captureArea">
     <div class="w-full max-w-lg mx-auto p-3">
       <div role="alert" class="alert bg-yellow-300 flex mt-3 flex-col gap-2 items-start">
         <div class="flex w-full bg-white p-3 border rounded-lg">
@@ -117,10 +117,36 @@
             </div>
           </div>
           <div class="w-full bg-white rounded-lg mt-3">
-            <button class="btn btn-error btn-info w-full">Success</button>
+            <button onclick="capture()" class="btn btn-error btn-info w-full">Success</button>
           </div>
       </div>
     </div>
 </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        function captureElement(element) {
+            domtoimage.toPng(element)
+                .then(function(dataUrl) {
+                    var img = new Image();
+                    img.src = dataUrl;
+
+                    // 이미지 다운로드 링크 생성
+                    const link = document.createElement('a');
+                    link.href = dataUrl;
+                    link.download = 'capture.png';
+                    link.click();
+                })
+                .catch(function(error) {
+                    console.error('캡처 중 오류 발생:', error);
+                });
+        }
+
+        // 사용 예시
+        function capture() {
+            const element = document.getElementById('captureArea');
+            captureElement(element);
+        }
+
+    </script>
 </body>
 </html>
