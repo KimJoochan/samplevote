@@ -1,230 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    *{
-      margin:0; padding : 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+    </style>
 </head>
+
 <body>
-  <div class="bg-gray-200">
-    <div class="w-full max-w-lg mx-auto p-3">
-      <img src="https://lh5.googleusercontent.com/XjkbOeesa37tiuXVeajxZIN2pcKzlP5--5dv05ZtBaQkWbMGngW842gSudi9OzyVxGfvzzHDkZSpbPL41Mh6Aob5jlnqPYRuhQOnhhXOselHLaBzNZAFo83P1yciXHSnIA=w2141">
-      <div role="alert" class="alert bg-green-300 flex mt-3 flex-col gap-2 items-start">
-        <div class="flex w-full bg-white p-3 border rounded-lg">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            class="h-6 w-6 shrink-0 stroke-current">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-          </svg>
-          <span class="ml-1 text-lg">어른이들을 위한 마음 상담소 : <b>마음세탁소</b></span>
+    <div class="bg-gray-200">
+        <div class="w-full max-w-lg mx-auto p-3">
+            <img src="https://lh5.googleusercontent.com/XjkbOeesa37tiuXVeajxZIN2pcKzlP5--5dv05ZtBaQkWbMGngW842gSudi9OzyVxGfvzzHDkZSpbPL41Mh6Aob5jlnqPYRuhQOnhhXOselHLaBzNZAFo83P1yciXHSnIA=w2141">
+            <div role="alert" class="alert bg-green-300 flex mt-3 flex-col gap-2 items-start">
+                <div class="flex w-full bg-white p-3 border rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="h-6 w-6 shrink-0 stroke-current">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="ml-1 text-lg">어른이들을 위한 마음 상담소 : <b>마음세탁소</b></span>
+                </div>
+                <p style="text-align: start;" class="bg-white w-full p-3 border rounded-lg">
+                    [ 청년 NPO 상담소 "마음 세탁소" 소개 ]<br>
+                    N포 세대를 지나 더 이상 잃어버릴 것 없는 현대 청년들이 마주한 로스트 제너레이션(Lost generation).<br><br>
+
+                    갓생이 아닌 이번 생은 틀렸으니 "걍생"하자라는 말이 유행처럼 번지며 아무리 노력해도 해결할 수 없는 상황을 마주한 청년들은 스스로를 회피하며 살아가고 있습니다.<br><br>
+
+                    절대적 박탈감과 무기력감에 던져진 MZ세대 2030청년들을 위한 작은 위로가 될 마음 처방전을 드립니다!<br><br>
+
+                    <b>"치열한 세상 속에서 나를 잃지 말자!"</b><br><br>
+
+                    감정적인 마음과 합리적인 사고 사이에서의 균형을 찾아 건강한 마음을 회복할 수 있도록 응원합니다 :)
+                </p>
+                <div class="mt-3 bg-white w-full rounded-lg p-3">
+                    <img src="https://lh5.googleusercontent.com/PuBDEAgawC83vsZ6xQTPDK__pVYK7PL-ISl13Ea09TTRruYePxSmqQOW-RQmNLFRZITxyrGEw85TfBEn-7jJsMSruOsHgsQuAkQ6Ag-uoNGikzCyUuB-1KSFAN1L685RGQ=w535">
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">Q1. 길에서 넘어졌을 때 당신은 어떤 행동을 할 것 같나요?</p>
+                    <div class="flex w-full flex-col">
+                        <img class="mt-3" src="https://lh6.googleusercontent.com/RIAbzPFKimDQ3r6yf04aIrNVgh0yCkbjMsePT90ZqiIBTOdfzcQkwmhGONboT2N1F9sjO9_sst6g3ovKdaj3XU3J4qN0MYilT_e9KQPIzeAuzZQPnGZvvZMjiQbTNW6GGg=w439">
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">내가 왜 여기서 넘어졌지?</span>
+                            <input type="radio" name="radio-11" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">악! 창피해ㅠ</span>
+                            <input type="radio" name="radio-11" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">아오 짜증나~!</span>
+                            <input type="radio" name="radio-11" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">Q2. "나 어제 힘들어서 머리 잘랐어." 라고 말하는 친구의 말에 당신의 반응은?</p>
+                    <div class="flex w-full flex-col">
+                        <img class="mt-3" src="https://lh3.googleusercontent.com/QAmSx4g57-ek6_duZPXzNOYyFGVs71sMC5K2D-k34fbfQ_w8njjsh0LSyV7sFj188Xx_qjOo4uwNdpFIh8A1y-PXTohaZOvrhPAuX10tZf2CACIpohdqTPdw4wD_TTS5TA=w740">
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">어떤 일인지 듣고 해결방법을 알려준다</span>
+                            <input type="radio" name="radio-12" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">무슨일이야..? 괜찮아??</span>
+                            <input type="radio" name="radio-12" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">오~! 어디서 잘랐어??</span>
+                            <input type="radio" name="radio-12" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">Q3. 내가 바꾸고 싶은 성향 또는 내가 채우고 싶은 성향이 있나요?</p>
+                    <div class="flex w-full flex-col">
+                        <img class="mt-3" src="https://lh6.googleusercontent.com/OeAb05pRc55ldNqBCaFDuwI8u0oeoic46XgeJNAPo2P0C_MOHWhEnIk0V714A1dDyUNQDWPhWCtuL_boIJSPJXIkel1Si0CCTS9RyCPNBLn-1dcKU3T4plbcQuzrSBYVQg=w600">
+                        <label class="label cursor-pointer flex gap-3">
+                            <input type="text" class="input flex-1 pl-3 border border-black" placeholder="내 답변" />
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">Q4. 요즘 내 고민이 있다면, 그걸 해결하기 위한 취미나 관심사가 있나요?</p>
+                    <div class="flex w-full flex-col">
+                        <img class="mt-3" src="https://lh6.googleusercontent.com/BI526wDpfU_G1Ez4ukgJE_LVQsgnBRCgSC_HmQ-P3w0hHNAI0vhHVaLOi1Q8iCrTIkhoolTO411Bzp3P2rhzwfWtti4J0NuvHiFGP_eSdIg-IClZ2ieJrJjif1N8N1SFGg=w740">
+                        <label class="label cursor-pointer flex gap-3">
+                            <input type="text" class="input flex-1 pl-3 border border-black" placeholder="내 답변" />
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">[마음세탁소 소개]</p>
+                    <div class="flex w-full flex-col">
+                        <img class="mt-3" src="https://lh4.googleusercontent.com/cZskF4vo7VRawBwzsJlR7V9aoYpGVPqKhzKr4wLM8T6KqCH7cYVZiZNw4UBN-_uancWkArml4HF9c2SutyS3LOvjDqlMoAkPWVYq6csmsm5QTESVVHAGgbjLWKSxk2Z0xg=w740">
+                        <label class="label cursor-pointer flex gap-3">
+                            <input type="text" class="input flex-1 pl-3 border border-black" placeholder="내 답변" />
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">컨설팅 프로모션에 받고 싶은 프로그램은?</p>
+                    <div class="flex w-full flex-col">
+                        <img class="mt-3" src="https://lh5.googleusercontent.com/kihHmSApN766cE4F8abVXlLwkJB0dB5ppv9tKXuCTV7_3eF8m2vMwTgP72ncR2uCgN6yuuD0B9wDT6vrM_89bAX4tfSBnD0669gzhe8ErxuPzkPhBudpjgZShv2lBWwrnw=w740">
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">프로피그램</span>
+                            <input type="checkbox" name="radio-14" class="radio checked:bg-green-500" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">컬러테라피</span>
+                            <input type="checkbox" name="radio-15" class="radio checked:bg-green-500" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">그래픽테라피</span>
+                            <input type="checkbox" name="radio-16" class="radio checked:bg-green-500" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">아트테라피</span>
+                            <input type="checkbox" name="radio-17" class="radio checked:bg-green-500" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">멘토링서비스</span>
+                            <input type="checkbox" name="radio-18" class="radio checked:bg-green-500" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">커피 쿠폰</span>
+                            <input type="checkbox" name="radio-19" class="radio checked:bg-green-500" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">퍼스널컬러 체험권 - 다음주 토요일!</span>
+                            <input type="checkbox" name="radio-20" class="radio checked:bg-green-500" />
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">이름/성별/나이</p>
+                    <div class="flex w-full flex-col">
+                        <label class="label cursor-pointer flex gap-3">
+                            <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">MBTI는?</p>
+                    <div class="flex w-full flex-col">
+                        <label class="label cursor-pointer flex gap-3">
+                            <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">Q. 상담을 받아보신 적 있으신가요?</p>
+                    <div class="flex w-full flex-col">
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">네</span>
+                            <input type="radio" name="radio-30" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">아니요</span>
+                            <input type="radio" name="radio-30" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">Q. 적합한 상담기간은?(나를 위해 투자한다면)</p>
+                    <div class="flex w-full flex-col">
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">5년 이상</span>
+                            <input type="radio" name="radio-31" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">3년</span>
+                            <input type="radio" name="radio-31" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">1년</span>
+                            <input type="radio" name="radio-31" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">6개월 이하</span>
+                            <input type="radio" name="radio-31" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                        <label class="label cursor-pointer flex gap-3">
+                            <span class="label-text">일주일</span>
+                            <input type="radio" name="radio-31" class="radio checked:bg-green-500" checked="checked" />
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">문자 안내 연락처</p>
+                    <div class="flex w-full flex-col">
+                        <label class="label cursor-pointer flex gap-3">
+                            <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">컨설팅 가능 날짜/요일</p>
+                    <div class="flex w-full flex-col">
+                        <label class="label cursor-pointer flex gap-3">
+                            <input type="date" class="input flex-1 pl-3 border border-black" placeholder="" />
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-3 bg-white p-3 w-full rounded-lg">
+                    <p style="text-align: start;">컨설팅 가능 시간/장소</p>
+                    <div class="flex w-full flex-col">
+                        <label class="label cursor-pointer flex gap-3">
+                            <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
+                        </label>
+                    </div>
+                </div>
+                <div class="w-full bg-white rounded-lg mt-3">
+                    <button type="button" id="capture-btn" class="btn btn-outline btn-info w-full">Success</button>
+                </div>
+            </div>
         </div>
-        <p style="text-align: start;" class="bg-white w-full p-3 border rounded-lg">
-          [ 청년 NPO 상담소 "마음 세탁소" 소개 ]<br>
-          N포 세대를 지나 더 이상 잃어버릴 것 없는 현대 청년들이 마주한 로스트 제너레이션(Lost generation).<br><br>
-
-          갓생이 아닌 이번 생은 틀렸으니 "걍생"하자라는 말이 유행처럼 번지며 아무리 노력해도 해결할 수 없는 상황을 마주한 청년들은 스스로를 회피하며 살아가고 있습니다.<br><br>
-
-          절대적 박탈감과 무기력감에 던져진 MZ세대 2030청년들을 위한 작은 위로가 될 마음 처방전을 드립니다!<br><br>
-
-          <b>"치열한 세상 속에서 나를 잃지 말자!"</b><br><br>
-
-          감정적인 마음과 합리적인 사고 사이에서의 균형을 찾아 건강한 마음을 회복할 수 있도록 응원합니다 :)</p>
-          <div class="mt-3 bg-white w-full rounded-lg p-3">
-            <img src="https://lh5.googleusercontent.com/PuBDEAgawC83vsZ6xQTPDK__pVYK7PL-ISl13Ea09TTRruYePxSmqQOW-RQmNLFRZITxyrGEw85TfBEn-7jJsMSruOsHgsQuAkQ6Ag-uoNGikzCyUuB-1KSFAN1L685RGQ=w535">
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">Q1. 길에서 넘어졌을 때 당신은 어떤 행동을 할 것 같나요?</p>
-            <div class="flex w-full flex-col">
-              <img class="mt-3" src="https://lh6.googleusercontent.com/RIAbzPFKimDQ3r6yf04aIrNVgh0yCkbjMsePT90ZqiIBTOdfzcQkwmhGONboT2N1F9sjO9_sst6g3ovKdaj3XU3J4qN0MYilT_e9KQPIzeAuzZQPnGZvvZMjiQbTNW6GGg=w439">
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">내가 왜 여기서 넘어졌지?</span>
-                <input type="radio" name="radio-11" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">악! 창피해ㅠ</span>
-                <input type="radio" name="radio-11" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">아오 짜증나~!</span>
-                <input type="radio" name="radio-11" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-            </div>
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">Q2. "나 어제 힘들어서 머리 잘랐어." 라고 말하는 친구의 말에 당신의 반응은?</p>
-            <div class="flex w-full flex-col">
-              <img class="mt-3" src="https://lh3.googleusercontent.com/QAmSx4g57-ek6_duZPXzNOYyFGVs71sMC5K2D-k34fbfQ_w8njjsh0LSyV7sFj188Xx_qjOo4uwNdpFIh8A1y-PXTohaZOvrhPAuX10tZf2CACIpohdqTPdw4wD_TTS5TA=w740">
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">어떤 일인지 듣고 해결방법을 알려준다</span>
-                <input type="radio" name="radio-12" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">무슨일이야..? 괜찮아??</span>
-                <input type="radio" name="radio-12" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">오~! 어디서 잘랐어??</span>
-                <input type="radio" name="radio-12" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-            </div>
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">Q3. 내가 바꾸고 싶은 성향 또는 내가 채우고 싶은 성향이 있나요?</p>
-            <div class="flex w-full flex-col">
-              <img class="mt-3" src="https://lh6.googleusercontent.com/OeAb05pRc55ldNqBCaFDuwI8u0oeoic46XgeJNAPo2P0C_MOHWhEnIk0V714A1dDyUNQDWPhWCtuL_boIJSPJXIkel1Si0CCTS9RyCPNBLn-1dcKU3T4plbcQuzrSBYVQg=w600">
-              <label class="label cursor-pointer flex gap-3">
-                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="내 답변" />
-              </label>
-            </div>
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">Q4. 요즘 내 고민이 있다면, 그걸 해결하기 위한 취미나 관심사가 있나요?</p>
-            <div class="flex w-full flex-col">
-              <img class="mt-3" src="https://lh6.googleusercontent.com/BI526wDpfU_G1Ez4ukgJE_LVQsgnBRCgSC_HmQ-P3w0hHNAI0vhHVaLOi1Q8iCrTIkhoolTO411Bzp3P2rhzwfWtti4J0NuvHiFGP_eSdIg-IClZ2ieJrJjif1N8N1SFGg=w740">
-              <label class="label cursor-pointer flex gap-3">
-                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="내 답변" />
-              </label>
-            </div>
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">[마음세탁소 소개]</p>
-            <div class="flex w-full flex-col">
-              <img class="mt-3" src="https://lh4.googleusercontent.com/cZskF4vo7VRawBwzsJlR7V9aoYpGVPqKhzKr4wLM8T6KqCH7cYVZiZNw4UBN-_uancWkArml4HF9c2SutyS3LOvjDqlMoAkPWVYq6csmsm5QTESVVHAGgbjLWKSxk2Z0xg=w740">
-              <label class="label cursor-pointer flex gap-3">
-                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="내 답변" />
-              </label>
-            </div>
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">컨설팅 프로모션에 받고 싶은 프로그램은?</p>
-            <div class="flex w-full flex-col">
-              <img class="mt-3" src="https://lh5.googleusercontent.com/kihHmSApN766cE4F8abVXlLwkJB0dB5ppv9tKXuCTV7_3eF8m2vMwTgP72ncR2uCgN6yuuD0B9wDT6vrM_89bAX4tfSBnD0669gzhe8ErxuPzkPhBudpjgZShv2lBWwrnw=w740">
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">프로피그램</span>
-                <input type="checkbox" name="radio-14" class="radio checked:bg-green-500"/>
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">컬러테라피</span>
-                <input type="checkbox" name="radio-15" class="radio checked:bg-green-500"/>
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">그래픽테라피</span>
-                <input type="checkbox" name="radio-16" class="radio checked:bg-green-500"/>
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">아트테라피</span>
-                <input type="checkbox" name="radio-17" class="radio checked:bg-green-500"/>
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">멘토링서비스</span>
-                <input type="checkbox" name="radio-18" class="radio checked:bg-green-500"/>
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">커피 쿠폰</span>
-                <input type="checkbox" name="radio-19" class="radio checked:bg-green-500"/>
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">퍼스널컬러 체험권 - 다음주 토요일!</span>
-                <input type="checkbox" name="radio-20" class="radio checked:bg-green-500"/>
-              </label>
-            </div>
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">이름/성별/나이</p>
-            <div class="flex w-full flex-col">
-              <label class="label cursor-pointer flex gap-3">
-                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
-              </label>
-            </div>
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">MBTI는?</p>
-            <div class="flex w-full flex-col">
-              <label class="label cursor-pointer flex gap-3">
-                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
-              </label>
-            </div>
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">Q. 상담을 받아보신 적 있으신가요?</p>
-            <div class="flex w-full flex-col">
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">네</span>
-                <input type="radio" name="radio-30" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">아니요</span>
-                <input type="radio" name="radio-30" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-            </div>
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">Q. 적합한 상담기간은?(나를 위해 투자한다면)</p>
-            <div class="flex w-full flex-col">
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">5년 이상</span>
-                <input type="radio" name="radio-31" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">3년</span>
-                <input type="radio" name="radio-31" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">1년</span>
-                <input type="radio" name="radio-31" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">6개월 이하</span>
-                <input type="radio" name="radio-31" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-              <label class="label cursor-pointer flex gap-3">
-                <span class="label-text">일주일</span>
-                <input type="radio" name="radio-31" class="radio checked:bg-green-500" checked="checked" />
-              </label>
-            </div>
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">문자 안내 연락처</p>
-            <div class="flex w-full flex-col">
-              <label class="label cursor-pointer flex gap-3">
-                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
-              </label>
-            </div>
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">컨설팅 가능 날짜/요일</p>
-            <div class="flex w-full flex-col">
-              <label class="label cursor-pointer flex gap-3">
-                <input type="date" class="input flex-1 pl-3 border border-black" placeholder="" />
-              </label>
-            </div>
-          </div>
-          <div class="mt-3 bg-white p-3 w-full rounded-lg">
-            <p style="text-align: start;">컨설팅 가능 시간/장소</p>
-            <div class="flex w-full flex-col">
-              <label class="label cursor-pointer flex gap-3">
-                <input type="text" class="input flex-1 pl-3 border border-black" placeholder="" />
-              </label>
-            </div>
-          </div>
-          <div class="w-full bg-white rounded-lg mt-3">
-            <button class="btn btn-outline btn-info w-full">Success</button>
-          </div>
-      </div>
     </div>
-</div>
+    <script>
+        document.getElementById('capture-btn').addEventListener('click', () => {
+            html2canvas(document.body, {
+                // 스크롤된 부분까지 모두 캡처
+                scrollY: -window.scrollY
+            }).then(canvas => {
+                // 캔버스를 이미지 URL로 변환
+                const image = canvas.toDataURL('image/png');
+
+                // 가상의 링크를 생성하여 다운로드
+                const link = document.createElement('a');
+                link.href = image;
+                link.download = 'screenshot.png';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            });
+        });
+
+    </script>
 </body>
+
 </html>
